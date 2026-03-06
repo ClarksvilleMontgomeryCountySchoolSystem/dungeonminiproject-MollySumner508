@@ -1,6 +1,6 @@
 drawbridge_raised = True
-outcome = "Thunder: Crackalaka"
 if drawbridge_raised:
-    print("Thunder: Crackalaka")
+    outcome = "Doom: Oh nooooo"
 else:
-    print("Doom: Oh nooooo")
+    outcome = "Thunder: Crackalaka"
+print(outcome)

@@ -1,6 +1,6 @@
 guard_awake = True
-outcome = "Shadow: honk shoooo memememe"
-if guard_awake:
-   print("Shadow: honk shoooo memememe")
+if not guard_awake:
+   outcome = "Shadow: honk shoooo memememe"
 else:
-    print("Doom: Find another way")
+    outcome = "Doom: Find another way"
+print(outcome)
